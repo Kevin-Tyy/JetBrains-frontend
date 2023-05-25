@@ -19,6 +19,8 @@
 .pagination-container li a{ 
     padding: 16px 40px;
     border-radius: 50px;
+    transition: all 0.5s;
+    border: none;
 
 }
 .pagination-container li a:hover{
@@ -28,4 +30,6 @@
 
 .pagination-container li a.active{
     border: 1px solid white;
+    background-color: #3333338d;
+    transition: border 0.5s;
 }

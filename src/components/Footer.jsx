@@ -40,7 +40,7 @@ const Footer = () => {
 							<li className="list-none mb-2">
 								<Typography
 									variant="caption"
-									className="py-1 text-neutral-400 border-b border-neutral-800  cursor-pointer hover:border-neutral-400">
+									className="py-1 text-neutral-400 border-b border-neutral-800  transition duration-200 cursor-pointer hover:border-neutral-400">
 									{product}
 								</Typography>
 
@@ -56,7 +56,7 @@ const Footer = () => {
 
 							<Typography
 								variant="caption"
-								className="py-1 text-neutral-400 border-b border-neutral-800  cursor-pointer hover:border-neutral-400">
+								className="py-1 text-neutral-400 border-b border-neutral-800 transition duration-200  cursor-pointer hover:border-neutral-400">
 								{solution}
 							</Typography>
 							</li>
@@ -72,7 +72,7 @@ const Footer = () => {
 							<li className="list-none mb-2">
 								<Typography
 									variant="caption"
-									className="py-1 text-neutral-400 border-b border-neutral-800  cursor-pointer hover:border-neutral-400">
+									className="py-1 text-neutral-400 border-b border-neutral-800  transition duration-200 cursor-pointer hover:border-neutral-400">
 									{initiatives}
 								</Typography>
 
@@ -90,7 +90,7 @@ const Footer = () => {
 
 								<Typography
 									variant="caption"
-									className="py-1 text-neutral-400 border-b border-neutral-800  cursor-pointer hover:border-neutral-400">
+									className="py-1 text-neutral-400 border-b border-neutral-800  transition duration-200 cursor-pointer hover:border-neutral-400">
 									{community}
 								</Typography>
 							</li>
@@ -107,7 +107,7 @@ const Footer = () => {
 
 							<Typography
 								variant="caption"
-								className="py-1 text-neutral-400 border-b border-neutral-800  cursor-pointer hover:border-neutral-400">
+								className="py-1 text-neutral-400 border-b border-neutral-800  transition duration-200 cursor-pointer hover:border-neutral-400">
 								{resources}
 							</Typography>
 							</li>
@@ -124,7 +124,7 @@ const Footer = () => {
 
 								<Typography
 									variant="caption"
-									className="py-1 text-neutral-400 border-b border-neutral-800  cursor-pointer hover:border-neutral-400">
+									className="py-1 text-neutral-400 border-b border-neutral-800  transition duration-200 cursor-pointer hover:border-neutral-400">
 									{company}
 								</Typography>
 							</li>

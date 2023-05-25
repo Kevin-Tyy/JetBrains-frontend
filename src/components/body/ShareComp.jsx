@@ -4,8 +4,8 @@ const ShareComp = () => {
 	return (
 		<div id="section4">
 			
-			<div className="bg-indigo-950 h-80 ">
-				<div className="w-full xl:w-1250  px-4 xl:mx-auto py-4 xl:py-0">
+			<div className="bg-indigo-950">
+				<div className="w-full xl:w-1250  px-4 xl:mx-auto py-4">
 					<Typography variant="h4" sx={{ mb: 3,  fontSize: { xs : '30px', lg: '40px'}}} className="text-white">
 						Share your knowledge
 					</Typography>

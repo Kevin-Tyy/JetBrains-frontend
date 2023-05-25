@@ -52,28 +52,31 @@ const Community = () => {
 				</div>
 			</div>
             <div className="flex flex-col w-full justify-center items-center bg-gradient-to-r from-indigo-800 to-purple-800 ">
-                <div className="w-full xl:w-1250 px-2 xl:px-0 py-8 xl:py-0">
+                <div className="w-full xl:w-1250 px-2 py-8">
                     <Typography variant="h4" sx={{ mb : 3}} className="text-white">
                     JetBrains Academy for your organization
                     </Typography>
                     <Typography variant="body1" sx={{ lineHeight : 2}} className="text-white w-full  2xl:w-850">
                     No matter what industry you’re in or what size your company is, JetBrains Academy is well-equipped to meet your needs. Make sure your team stays up to date with programming languages and new technologies, and manage their learning process easily.
                     </Typography>
-                    <button className="bg-white text-black py-2 px-10 mt-10 rounded-3xl cursor-pointer">
+					<div className="flex mt-10">
+                    <button className="bg-white text-black py-2  px-4 sm:px-10   rounded-3xl cursor-pointer whitespace-nowrap">
                         <Typography variant="body1">
                             Learn more
 
                         </Typography>
                     </button>
-                    <button className="bg-transprent text-white py-2 px-10 ml-5 border border-white rounded-3xl cursor-pointer hover:bg-neutral-500/30">
+                    <button className="bg-transprent text-white py-2 px-5 sm:px-10 ml-5  border border-white rounded-3xl cursor-pointer hover:bg-neutral-500/30 whitespace-nowrap">
                         <Typography variant="body1">
                             Contact Sales
 
                         </Typography>
                     </button>
+
+					</div>
                 </div>
             </div>
-			<div className="flex flex-col xl:flex-row  items-center justify-around">
+			<div className="flex flex-col xl:flex-row  items-center justify-around pt-10">
 				<div className="flex items-center">
 					<img src={logo} alt="jetBrains log" className="w-24"/>
 					<Typography variant="h6" className="text-white">
